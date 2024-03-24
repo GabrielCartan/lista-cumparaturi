@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    resize: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    min-height: 100dvh;
+    padding: 10px;
+    background: linear-gradient(#3a86ff, #8338ec);
+}
+
+.container h4 {
+    text-align: center;
+    font-size: 30px;
+    color: #f1faee;
+}
+
+.imagine-magazin {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.imagine-magazin img {
+    width: 80px;
+}
+
+.adauga-date {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    /* background: red; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adauga-date input {
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #000;
+    border-radius: 10px;
+}
+
+.btn-adauga-date {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: blue;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.total-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.total-general .totaluri {
+    display: flex;
+}
+
+.total-general p {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.suma-totala {
+    width: 30%;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 5px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.total-general .moneda {
+    font-size: 20px;
+    color: #fff;
+}
+
+.total-general .btn-sterge-lista {
+    border: none;
+    outline: none;
+    background: blue;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;    
+}
+
+.lista-cumparaturi {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    /* background: red; */
+    margin-top: 20px;
+}
+
+.linie-lista-cumparaturi {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #ade8f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.linie-lista-cumparaturi p {
+    font-size: 14px;
+    color: #000;
+}
+
+.linie-lista-cumparaturi .denumire {
+    width: 45%;
+    height: auto;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.linie-lista-cumparaturi .cantitate {
+    width: 15%;
+    height: auto;
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.linie-lista-cumparaturi .pret {
+    width: 15%;
+    height: auto;
+    /* background: red;  */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.linie-lista-cumparaturi .total-linie {
+    width: 15%;
+    height: auto;
+    /* background: blue;   */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px; 
+}
+
+.linie-lista-cumparaturi .sterge-linie {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
